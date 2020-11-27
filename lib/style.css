@@ -101,6 +101,7 @@ hr{
     padding-top: 2rem;
     color: var(--grey-light);
     text-align: center;
+    line-height: 105%;
 }
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
