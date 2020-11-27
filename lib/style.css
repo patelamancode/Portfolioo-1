@@ -1,15 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
 
 :root{
-    --primary-color:#90cdf4;
+    --primary-color:#D53F8C;
     --grey-light: #a0aec0;
-    --off-white: #f7fafc;
+    --off-white: #e2e8f0;
 
 }
 
 body{
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0px;
+    line-height: 150%;
 }
 hr{
     margin: 5rem,0rem;
@@ -17,11 +18,13 @@ hr{
 
 /* container */
 .container{
-    padding: 0rem,1rem;
+    padding: 0rem 1rem;
 }
 .container-center{
     max-width: 600px;
     margin: auto;
+    padding: 2rem;
+    text-align: center;
 }   
 
 /* links */
@@ -35,11 +38,20 @@ hr{
     color: white;
     padding: 0.5rem;
 }
+.link-primary:hover{
+    background-color:#b83a7b ;
+}
 .link-secondary{
     color: var(--primary-color);
     border-radius: 0.5rem;
-    border: 1px solid var (--primary-color);
-    padding: 2rem;
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem;
+}
+.link-secondary:hover{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    padding: 0.5rem;
 }
 /* lists */
 .list-non-bullet{
@@ -98,7 +110,8 @@ hr{
 
 .section h3 {
      text-align: center;
-     padding: 2rem;
+     padding: 0.7rem;
+     margin-top: 0.5rem;
 }
 .offwhite{
     background-color: var(--off-white);
