@@ -18,13 +18,15 @@ hr{
 
 /* container */
 .container{
-    padding: 0rem 1rem;
+    padding: 0rem 2rem;
 }
 .container-center{
-    max-width: 600px;
+    max-width: 80%;
+    margin: 30px;
     margin: auto;
-    padding: 2rem;
     text-align: center;
+    grid-gap: 50px;
+    padding: 1.3rem;
 }   
 
 /* links */
@@ -89,10 +91,11 @@ hr{
 
 .hero{
     padding: 2rem;
+    margin: auto;
 }
 
 .hero .hero-img{
-    max-width: 350px;
+    max-width: 80%;
     display: block;
     margin: auto;
 
